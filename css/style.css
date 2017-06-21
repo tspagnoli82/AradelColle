@@ -84,6 +84,7 @@ border-top:2px solid #fff;
 background:#F9EDDB;
 min-height:300px;
 padding:2em 0 4em 0;
+border-bottom: 0.1px solid #6A6B6C;
 }
 .banner-info h3{
 color:#2A2E33;
@@ -92,6 +93,8 @@ margin-bottom:12px;
 }
 .banner-info h3 label{
 font-weight:600;
+font-family: 'Pinyon Script', cursive;
+font-size: 37px;
 }
 .banner-info h1{
 color:#2A2E33;
@@ -273,20 +276,20 @@ select option{
 	background: #fff;
 }
 /* start grids_of_3 */
-.grids_of_3{
+.grids_of_4{
 	display: block;
 	padding: 4% 2% 12%;
 }
-.grid1_of_3{
+.grid1_of_4{
 	float: left;
 	width: 30.333333%;
 	margin-left: 4.33333%;
 
 }
-.grid1_of_3:first-child{
+.grid1_of_4:first-child{
 	margin-left: 0;
 }
-.grid1_of_3 h4 a{
+.grid1_of_4 h4 a{
 	margin: 4% 0;
 	display:block;
 	font-size: 1.5em;
@@ -298,20 +301,20 @@ select option{
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.grid1_of_3 h4 span{
+.grid1_of_4 h4 span{
 	font-weight: 600;
 	padding-left: 10px;
 	color: #202020;
 }
-.grid1_of_3 h4 a:hover{
+.grid1_of_4 h4 a:hover{
 	color: #202020;
 }
-.grid1_of_3 p{
+.grid1_of_4 p{
 	font-size: 0.8725em;
 	color: #6b6b6b;
 	line-height: 1.8em;
 }
-.grid1_of_3_img{
+.grid1_of_4_img{
 		position: relative;	
 }
 /* start footer */
@@ -633,6 +636,15 @@ padding:2% 0 8% 0;
 font-family: 'Pinyon Script', cursive;
 font-size:3em;
 margin-bottom:20px;
+}
+.titoli{
+	font-family: 'Pinyon Script', cursive;
+font-size:3em;
+margin-bottom:20px;
+margin: 0;
+color: inherit;
+    text-align: center;
+	display: block;
 }
 .room-sec h4{
 color:#616468;
@@ -1547,12 +1559,27 @@ padding-bottom: 6em;
 .company_address p a:hover{
 	color: #242424;
 }
-.map{
-	margin: 6% 0 4%;
-}
 .contact_right h3{
 	margin-bottom: 2%;
 }
+
+/* Wrap responsive */
+.googlemap_wrap  {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+/* iframe posizionato in maniera assoluta */
+.googlemap_wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+}
+
 .contact-form{
 	padding-bottom:30px;
 }
@@ -1746,7 +1773,7 @@ width: 81%;
 left: 12%;
 }
 .room-sec {
-width: 33%;
+width: 24%;
 float: left;
 padding:0 10px;
 }
@@ -2086,7 +2113,7 @@ padding-bottom: 5em;
 }
 /*----*/
 .caption {
-width: 92%;
+width: 82%;
 height: 52%;
 }
 .rooms {
