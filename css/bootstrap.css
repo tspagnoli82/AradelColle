@@ -1113,7 +1113,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-md-4 {
-    width: 24.33333333%;
+    width: 25%; /* Margin lati (Camere)*/
   }
   .col-md-3 {
     width: 25%;
